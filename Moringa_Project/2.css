@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    background-image: url(headimage.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden ;
+    padding-top: 50px;
+
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.col-1{
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+}
+.col-1 h1{
+    font-size: 25px;
+}
+nav img{
+    width: 12px;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(226, 217, 196);
+    margin-bottom:30px;
+}
+.gender p{
+    margin-right: 30px;   
+}
+.gendercheck{
+    flex-basis: 50%;
+    display: inline-flex;
+    margin-left: 30px;
+}
+.gendercheck p{
+    font-weight: 550;
+    font-size: 10px;
+}
+
+.btn{
+    background: rgb(121, 32, 32);
+    color: white;
+    font-size: 8px;
+    padding: 8px 15px;
+    border: none;
+}
+
+
+
+
+
+.men, .women{
+   /* display: flex;
+    align-items: center;
+    flex-basis: 30%;
+    justify-content: space-around;*/
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 50px;
+    row-gap: 50px;
+    text-align: center ;
+    margin: 50px 100px;
+    
+}
+
+.men div{
+    background-color: whitesmoke;
+    margin: auto;
+    padding-left:40px ;
+    padding-right:40px ;
+}
+.women div{
+    background-color: whitesmoke;
+    padding-left:40px ;
+    padding-right:40px ;
+    margin: auto;
+}
+
+.men p, .women p{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.genderid, .genderid2{
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.tshirt{
+    border: 2px solid grey;
+}
+.men p, .women p{
+font-size: 10px ;
+color: lightgrey ;
+}
+.men h4, .women h4, .genderid h4{
+    font-size: 10px ;
+    color: black ;
+}
+hr{
+    width: 95%;
+    margin-left: 30px;
+    margin-top: -7px ;
+    color: rgb(245, 244, 244);
+}
+.genderid2 h4{
+    float: right;
+    margin-top: -8px;
+}
+
+
+
+
+.footerdiv{
+    height: 200px;
+    width: 100%;
+    background-image: url(about.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden ;
+    text-align: center;
+    margin: auto;
+}
+    
+.footerdiv h2, .footerdiv p{
+    font-size: 14px;
+    color:white;
+    margin-top:30px ;
+   
+
+}
+
+
+.footerdiv h2{
+    font-size: 10px;
+}
+
+.about{
+    border: 2px solid rgba(117, 128, 106, 0.507);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px; 
+    margin-bottom:-30px ;
+    text-align: center;
+}
+
+.promo{
+background-color: rgb(119, 115, 115);
+display:flex;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.promo img{
+    margin-left: 20px;  
+}
+.promo p{
+    font-size: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+.bottom{
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+    background-color: rgb(68, 68, 68);
+}
+.yolomy, .socials, .outro{
+    margin: 30px;
+    font-size: 12px;
+    color: white;
+}
+.yolomy h2{
+    font-size: 15px;
+    color: rgb(226, 222, 222);
+}
+
+.yolomy p{
+    font-size: 8px;
+    color: rgb(197, 195, 195);
+}
+
+.outro p{
+    display: inline-block;
+    justify-content: space-evenly;
+    color: rgb(197, 195, 195);
+}
+.outro h4{
+    font-size: 10px;
+    color: rgb(226, 222, 222);
+}
+.socials p{
+    color: rgb(197, 195, 195);
+}   
