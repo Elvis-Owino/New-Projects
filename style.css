@@ -16,21 +16,27 @@ body{
 }
 
 .panels-container{
-    white-space: nowrap;
     width: 100vw;
+    position: relative;
 }
 
 .panel{
     height: 100vh;
     width: 100vw;
-    display: inline-block;
-    position: relative;  
-}
-.panel p{
+    display: block;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.p-content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-content p{
     color: cornflowerblue;
 }
 .a{
@@ -53,4 +59,7 @@ body{
 }
 .g{
     background-color: yellow;
+}
+.h{
+    background-color: burlywood;
 }
