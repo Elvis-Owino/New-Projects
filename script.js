@@ -2,10 +2,22 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 //gsap.to(".a", {backgroundColor:"yellow", duration:5});
 
-/* Panels. Horizontal scroll */
-//let panels=document.querySelectorAll(".panel")
+/* Panels. Horizontal scroll 
+
 const panelsContainer=querySelector(".panels-container")
 
 
@@ -21,4 +33,6 @@ gsap.to(panels, {
 		snap: 1 / (panels.length - 1),
 		end: () =>  "+=" + (panelsContainer.offsetWidth - innerWidth)
 	}
-});
+});*/
+
+
