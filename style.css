@@ -39,16 +39,31 @@ body{
 .p-content p{
     color: cornflowerblue;
 }
-.a{
+
+.horizontals-container{
+    white-space: nowrap;
+    height: 100vh;
+    width: 100vw;
+}
+.horizontal{
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+}
+
+
+
+
+.a, .i{
     background-color: blue;
 }
-.b{
+.b, .j{
     background-color: white;
 }
-.c{
+.c, .k{
     background-color: purple;
 }
-.d{
+.d, .l{
     background-color: red;
 }
 .e{
